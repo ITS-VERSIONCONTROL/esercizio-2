@@ -4,16 +4,33 @@ SPRINT 1:
 
 In pair programming, ogni coppia di dev esegue un task:
 
-1. creare una pagina login.html con un form di login. Al login passa alla pagina main.html
-2. creare una pagina main.html con titolo e un'elenco di link alle pagine:
+Repository remoto
+
+git clone https://github.com/ITS-VERSIONCONTROL/esercizio-2.git
+cd esercizio-2
+git config --local user.name "Nome Cognome"
+
+git config --local user.email "email@dom.com"
+
+git remote set-url origin  https://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@github.com/ITS-VERSIONCONTROL/esercizio-2.git
+
+
+
+
+
+[]1. creare una pagina login.html con un form di login. Al login passa alla pagina main.html
+
+[]2. creare una pagina main.html con titolo e un'elenco di link alle pagine:
     a. elenco studenti (elenco_studenti.html)
     b. comandi principali di Git (comandi_principali.html)
     c. Git workflow (gitflow.html)
-3. creare una pagina elenco_studenti.html con la lista parziale degli studenti
-4. creare un css 'style01.css' con la definizione degli stili dei tag di base (html, body, h1, p, ecc...)
-5. creare un css 'style02.css' con la definizione degli stili dei tag di base (html, body, h1, p, ecc...)
-6. creare un css 'style03.css' con la definizione degli stili dei tag di base (html, body, h1, p, ecc...)
-7. creare il file 'comandi_principali.html' con la lista dei seguenti comandi:
+
+[] 3. creare una pagina elenco_studenti.html con la lista parziale degli studenti
+
+[] 4. creare un css 'style01.css' con la definizione degli stili dei tag di base (html, body, h1, p, ecc...)
+[] 5. creare un css 'style02.css' con la definizione degli stili dei tag di base (html, body, h1, p, ecc...)
+[] 6. creare un css 'style03.css' con la definizione degli stili dei tag di base (html, body, h1, p, ecc...)
+[] 7. creare il file 'comandi_principali.html' con la lista dei seguenti comandi:
     a. git init ('comandi/init.html')
     b. git status ('comandi/status.html')
     c. git log ('comandi/log.html')
@@ -22,19 +39,20 @@ In pair programming, ogni coppia di dev esegue un task:
 8. nella cartella 'comandi' creare il file 'init.html' con titolo e descrizione del comando nella forma:
     <h1>Git <comando></h1>
     <p>descrizione del comando</p>
-9. nella cartella 'comandi' creare il file 'status.html' con titolo e descrizione del comando nella forma:
+
+[] 9. nella cartella 'comandi' creare il file 'status.html' con titolo e descrizione del comando nella forma:
     <h1>Git <comando></h1>
     <p>descrizione del comando</p>
-10. nella cartella 'comandi' creare il file 'log.html' con titolo e descrizione del comando nella forma:
+[] 10. nella cartella 'comandi' creare il file 'log.html' con titolo e descrizione del comando nella forma:
     <h1>Git <comando></h1>
     <p>descrizione del comando</p>
-11. nella cartella 'comandi' creare il file 'add.html' con titolo e descrizione del comando nella forma:
+[] 11. nella cartella 'comandi' creare il file 'add.html' con titolo e descrizione del comando nella forma:
     <h1>Git <comando></h1>
     <p>descrizione del comando</p>
 12. nella cartella 'comandi' creare il file 'commit.html' con titolo e descrizione del comando nella forma:
     <h1>Git <comando></h1>
     <p>descrizione del comando</p>
-13. creare una pagina 'gitflow.html' con elenco e descrizione dei vari branch del flow: 
+[] 13. creare una pagina 'gitflow.html' con elenco e descrizione dei vari branch del flow: 
     - main
     - develop
     - qa-testing
